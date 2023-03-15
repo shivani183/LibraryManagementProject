@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<style>
+body {
+  background-image: url('mylib.jpeg');
+  background-repeat: no-repeat;
+  background-size: 1500px 825px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid brown;
+  border-radius: 4px;
+}
+input[type=submit] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid brown;
+  border-radius: 8px;
+}
+</style>
+</head>
+<body><br/>
+				<h1 style="color:white;font-size:3vw;text-align:center;">Enter details to Register Librarian</h1>
+	<form method="post" action="./RegLibrarianController/regLibrarian">
+		<table align='center'>
+			<tr>
+				<td style="color:white;font-size:2vw;background-color:brown;">Name</td>
+				<td><input type="text" name='lname' /></td><br/>
+			</tr>
+			<tr>
+				<td style="color:white;font-size:2vw;background-color:brown;">Username</td>
+				<td><input type="text" name='lusername' /></td><br/>
+			</tr>
+			<tr>
+				<td style="color:white;font-size:2vw;background-color:brown;">Password</td>
+				<td><input type="text" name='lpassword' /></td><br/>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input style="color:brown;font-size:1vw;" type="submit" value='Save' /></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

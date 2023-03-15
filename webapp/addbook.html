@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AddBook</title>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<style>
+
+
+div {
+  border-radius: 5px;
+  background-color: #853e3e;
+  padding:20px;
+  height:415px;
+  width: 30%;
+  margin-top:150px;
+  margin-right: 50px;
+  margin-bottom:300px;
+  margin-left: 440px;
+}
+</style>
+
+</head>
+<body >
+<div>
+		<form method="post" action="./BookController/addbook">
+		
+		<label for="fname">Book Name</label>
+	    <input type="text" id="fname" name="bname" placeholder="book name..">
+	
+	    <label for="lname">Book ID</label>
+	    <input type="text" id="lname" name="bid" placeholder="Book Id..">
+	    
+	    <label for="lname">Book's Subject</label>
+	    <input type="text" id="lname" name="bsubject" placeholder="subject..">
+	    
+	    <label for="lname">Book's Author</label>
+	    <input type="text" id="lname" name="bauthor" placeholder="author..">
+	    
+	    <label for="lname">Quantity</label>
+	    <input type="text" id="lname" name="quantity" placeholder="number of book">
+		
+		<input type="submit" value='Save' />
+		</form>
+</div>
+</body>
+</html>

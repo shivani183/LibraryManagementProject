@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html>
+<head>
+
+<style>
+body {
+  background-image: url('mylib.jpeg');
+  background-repeat: no-repeat;
+  background-size: 1500px 825px;
+}
+
+.dropbtn {
+	background-color: brown;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: brown
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: black;
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:white;
+  font-size:2vw;
+  text-align:center;
+  
+}
+</style>
+</head>
+<body>
+
+	<div class="dropdown">
+		<button class="dropbtn">Student</button>
+		<div class="dropdown-content">
+			<a href="addform.html">Add New Student</a> 
+			<a href="searchform.html">Search Student Details</a> 
+			<a href="updateform.html">Update Student Record</a>
+			<a href="deleteform.html">Delete Student Record</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Book</button>
+		<div class="dropdown-content">
+			<a href="addbook.html">Add New Book</a> 
+			<a href="searchBySub.html">View Books By Subject</a> 
+			<a href="searchByAuthor.html">View Books By Author</a> 
+			<a href="searchByTitle.html">View Book By Title</a> 
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">IssueBook</button>
+		<div class="dropdown-content">
+			<a href="issueBook.html">Issue A Book </a> 
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">CheckDue</button>
+		<div class="dropdown-content">
+			<a href="checkDue.html">Check Due for Student</a>
+		</div>
+	</div>
+<br/>
+<h1 style="color:white;font-size:4vw;text-align:center;">Welcome to college Library</h1><br/><br/><br/><br/>
+<h2 class="p3">"The only thing that you absolutely have to know, is the location of the library."</h2>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>issuebook</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<style>
+
+div {
+	border-radius: 5px;
+	background-color: #853e3e;
+	padding: 20px;
+	height: 350px;
+	width: 30%;
+	margin-top: 100px;
+	margin-right: 50px;
+	margin-bottom: 300px;
+	margin-left: 440px;
+}
+</style>
+
+</head>
+<body>
+<br/>
+	<h1 style="color: white; text-align: center">Issue A Book</h1>
+	<div>
+		<form method="post" action="./issueBookController/issueBook">
+
+			<label for="fname">Student Id</label> 
+			<input type="text" id="fname" name="sid" placeholder="student id..">
+			
+			<label for="fname">Book Id</label> 
+			<input type="text" id="fname" name="bid" placeholder="book id..">
+			
+			<label for="fname">Issuing Date(yyyy-MM-dd)</label> 
+			<input type="text" id="fname" name="issuedate" placeholder="today's date..">
+			
+			<label for="fname">Due Date(yyyy-MM-dd)</label> 
+			<input type="text" id="fname" name="duedate" placeholder="due date..">
+
+			<input type="submit" value='Save' />
+			
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<style>
+
+div {
+	border-radius: 5px;
+	background-color: #853e3e;
+	padding: 20px;
+	height: 135px;
+	width: 30%;
+	margin-top: 150px;
+	margin-right: 50px;
+	margin-bottom: 300px;
+	margin-left: 440px;
+}
+</style>
+</head>
+<body>
+	<br /><br/>
+<h1 style='color: white; text-align: center;'>Enter Author name to see available books</h1>
+	<div>
+		
+		<form method="get" action='./BookController/searchByAuthor'>
+
+			<label for="fname">AUTHOR</label> <input type="text" id="fname"
+				name="bauthor" placeholder="Author.."> <input type="submit"
+				value="Search">
+
+		</form>
+</body>
+</html>

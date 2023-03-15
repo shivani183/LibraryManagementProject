@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<style>
+
+div {
+	border-radius: 5px;
+	background-color: #853e3e;
+	padding: 20px;
+	height: 135px;
+	width: 30%;
+	margin-top: 90px;
+	margin-right: 50px;
+	margin-bottom: 280px;
+	margin-left: 470px;
+}
+</style>
+</head>
+<body>
+<br/>
+<br/>
+<br/>
+<h1 style='color: white; text-align: center;'>Check Due</h1>
+<div>
+	<form method="post" action="./issueBookController/checkDue">
+
+		<label for="fname">Student Id</label> <input type="text" id="fname"
+			name="sid" placeholder="Student Id.."> <input type="submit"
+			value="Check">
+	</form>
+</div>
+</body>
+</html>
